@@ -1,0 +1,228 @@
+{
+  "motors": [
+    {
+      "id": "MTR-001",
+      "name": "Motor 01",
+      "location": "Main Production Line",
+      "type": "Three-phase induction motor",
+      "ratedRpm": 1450,
+      "ratedCurrent": 12,
+      "baselineTemperature": 43.5,
+      "baselineVibration": 1.82
+    },
+    {
+      "id": "MTR-002",
+      "name": "Motor 02",
+      "location": "Conveyor System",
+      "type": "Conveyor drive motor",
+      "ratedRpm": 1320,
+      "ratedCurrent": 11,
+      "baselineTemperature": 52,
+      "baselineVibration": 2.6
+    },
+    {
+      "id": "MTR-003",
+      "name": "Motor 03",
+      "location": "Water Pump Station",
+      "type": "Pump motor",
+      "ratedRpm": 1600,
+      "ratedCurrent": 14,
+      "baselineTemperature": 66,
+      "baselineVibration": 3.9
+    }
+  ],
+  "readings": [
+    {
+      "id": "R001",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T08:00:00Z",
+      "vibration": 1.65,
+      "temperature": 42.8,
+      "rpm": 1448,
+      "current": 8.1
+    },
+    {
+      "id": "R002",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T08:10:00Z",
+      "vibration": 1.72,
+      "temperature": 43.0,
+      "rpm": 1452,
+      "current": 8.3
+    },
+    {
+      "id": "R003",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T08:20:00Z",
+      "vibration": 1.82,
+      "temperature": 43.5,
+      "rpm": 1450,
+      "current": 8.4
+    },
+    {
+      "id": "R004",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T08:30:00Z",
+      "vibration": 1.91,
+      "temperature": 43.8,
+      "rpm": 1451,
+      "current": 8.5
+    },
+    {
+      "id": "R005",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T08:40:00Z",
+      "vibration": 1.78,
+      "temperature": 44.0,
+      "rpm": 1447,
+      "current": 8.2
+    },
+    {
+      "id": "R006",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T08:50:00Z",
+      "vibration": 2.05,
+      "temperature": 44.1,
+      "rpm": 1450,
+      "current": 8.7
+    },
+    {
+      "id": "R007",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T09:00:00Z",
+      "vibration": 1.86,
+      "temperature": 43.9,
+      "rpm": 1453,
+      "current": 8.4
+    },
+    {
+      "id": "R008",
+      "motorId": "MTR-001",
+      "timestamp": "2026-10-15T09:10:00Z",
+      "vibration": 1.73,
+      "temperature": 43.6,
+      "rpm": 1450,
+      "current": 8.3
+    },
+    {
+      "id": "R009",
+      "motorId": "MTR-002",
+      "timestamp": "2026-10-15T08:00:00Z",
+      "vibration": 2.4,
+      "temperature": 50.5,
+      "rpm": 1322,
+      "current": 9.8
+    },
+    {
+      "id": "R010",
+      "motorId": "MTR-002",
+      "timestamp": "2026-10-15T08:10:00Z",
+      "vibration": 2.6,
+      "temperature": 52.0,
+      "rpm": 1318,
+      "current": 10.1
+    },
+    {
+      "id": "R011",
+      "motorId": "MTR-002",
+      "timestamp": "2026-10-15T08:20:00Z",
+      "vibration": 3.1,
+      "temperature": 53.2,
+      "rpm": 1321,
+      "current": 10.4
+    },
+    {
+      "id": "R012",
+      "motorId": "MTR-002",
+      "timestamp": "2026-10-15T08:30:00Z",
+      "vibration": 3.6,
+      "temperature": 55.0,
+      "rpm": 1319,
+      "current": 10.8
+    },
+    {
+      "id": "R013",
+      "motorId": "MTR-002",
+      "timestamp": "2026-10-15T08:40:00Z",
+      "vibration": 3.3,
+      "temperature": 54.6,
+      "rpm": 1320,
+      "current": 10.6
+    },
+    {
+      "id": "R014",
+      "motorId": "MTR-002",
+      "timestamp": "2026-10-15T08:50:00Z",
+      "vibration": 2.9,
+      "temperature": 53.9,
+      "rpm": 1324,
+      "current": 10.2
+    },
+    {
+      "id": "R015",
+      "motorId": "MTR-003",
+      "timestamp": "2026-10-15T08:00:00Z",
+      "vibration": 3.4,
+      "temperature": 64.2,
+      "rpm": 1598,
+      "current": 12.5
+    },
+    {
+      "id": "R016",
+      "motorId": "MTR-003",
+      "timestamp": "2026-10-15T08:10:00Z",
+      "vibration": 3.9,
+      "temperature": 66.0,
+      "rpm": 1600,
+      "current": 13.2
+    },
+    {
+      "id": "R017",
+      "motorId": "MTR-003",
+      "timestamp": "2026-10-15T08:20:00Z",
+      "vibration": 4.2,
+      "temperature": 67.5,
+      "rpm": 1595,
+      "current": 13.5
+    },
+    {
+      "id": "R018",
+      "motorId": "MTR-003",
+      "timestamp": "2026-10-15T08:30:00Z",
+      "vibration": 4.7,
+      "temperature": 68.2,
+      "rpm": 1597,
+      "current": 13.8
+    }
+  ],
+  "alerts": [
+    {
+      "id": "A001",
+      "motorId": "MTR-001",
+      "time": "12:30 PM",
+      "level": "healthy",
+      "message": "Motor operating normally"
+    },
+    {
+      "id": "A002",
+      "motorId": "MTR-002",
+      "time": "11:45 AM",
+      "level": "warning",
+      "message": "Vibration increased to 3.6 mm/s"
+    },
+    {
+      "id": "A003",
+      "motorId": "MTR-003",
+      "time": "10:12 AM",
+      "level": "warning",
+      "message": "Vibration is approaching critical range"
+    },
+    {
+      "id": "A004",
+      "motorId": "MTR-003",
+      "time": "08:20 AM",
+      "level": "critical",
+      "message": "Inspect vibration and bearing condition"
+    }
+  ]
+}
